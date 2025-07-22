@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | B.E CSE Graduate</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 20px 40px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 100px 40px 60px;
+      min-height: 100vh;
+    }
+
+    #home {
+      background: linear-gradient(to right, #1e88e5, #42a5f5);
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #about {
+      background-color: #fff3e0;
+    }
+
+    #skills {
+      background: url('https://www.transparenttextures.com/patterns/graphy.png'), #e3f2fd;
+    }
+
+    #internships {
+      background-color: #e8f5e9;
+    }
+
+    #links {
+      background: linear-gradient(to bottom right, #ede7f6, #d1c4e9);
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      border-bottom: 2px solid #0d47a1;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0d47a1;
+      font-weight: 600;
+    }
+
+    footer {
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      section {
+        padding: 120px 20px 60px;
+      }
+
+      #home h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mungara Neha Yadav</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#internships">Internships</a>
+      <a href="#links">Links</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Hello, I'm Mungara Neha Yadav</h2>
+    <p>A passionate B.E. CSE Graduate</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I recently graduated with a B.E. in Computer Science and Engineering. I have a strong interest in web development and SQL enjoy turning creative ideas into reality through clean, responsive designs and interactive web experiences.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5 & CSS</li>
+      <li>Responsive Web Design</li>
+      <li>GitHub</li>
+      <li>Basic JavaScript and SQL</li>
+    </ul>
+  </section>
+
+  <section id="internships">
+    <h2>Internships</h2>
+    <ul>
+      <li><strong>Front-End Intern</strong> at XYZ Tech — Built a responsive website landing page using HTML, CSS, and JavaScript.</li>
+      <li><strong>Web Development Intern</strong> at ABC Solutions — Collaborated on a student portal project using modern front-end practices.</li>
+    </ul>
+  </section>
+
+  <section id="links">
+    <h2>Links</h2>
+    <div class="links">
+      <a href="mailto:youremail@example.com">Email</a>
+      <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Mungara Neha yadav • Portfolio Website
+  </footer>
+
+</body>
+</html>
